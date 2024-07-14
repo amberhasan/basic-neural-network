@@ -1,0 +1,25 @@
+Activation,Optimizer,Loss Function,Epochs,Number of Layers,Training Accuracy (%),Testing Accuracy (%),Training Loss (%),Testing Loss (%)
+sigmoid,adam,categorical_crossentropy,50,2,80.0,83.33,79.65,77.12
+sigmoid,adam,categorical_crossentropy,100,2,90.83,93.33,52.65,51.91
+sigmoid,adam,mean_squared_error,50,2,80.83,90.0,16.23,16.15
+sigmoid,adam,mean_squared_error,100,2,84.17,86.67,10.62,10.3
+sigmoid,sgd,categorical_crossentropy,50,2,41.67,40.0,109.93,109.84
+sigmoid,sgd,categorical_crossentropy,100,2,40.0,36.67,106.89,106.96
+sigmoid,sgd,mean_squared_error,50,2,34.17,30.0,22.9,23.04
+sigmoid,sgd,mean_squared_error,100,2,34.17,30.0,21.94,22.06
+relu,adam,categorical_crossentropy,50,2,88.33,90.0,31.87,25.76
+relu,adam,categorical_crossentropy,100,2,96.67,100.0,8.81,5.98
+relu,adam,mean_squared_error,50,2,68.33,66.67,12.35,12.39
+relu,adam,mean_squared_error,100,2,67.5,63.33,14.28,14.68
+relu,sgd,categorical_crossentropy,50,2,92.5,96.67,44.17,42.87
+relu,sgd,categorical_crossentropy,100,2,80.0,83.33,54.18,51.26
+relu,sgd,mean_squared_error,50,2,32.5,30.0,22.12,22.18
+relu,sgd,mean_squared_error,100,2,37.5,40.0,17.42,16.16
+tanh,adam,categorical_crossentropy,50,2,88.33,93.33,36.52,33.8
+tanh,adam,categorical_crossentropy,100,2,96.67,100.0,10.86,8.5
+tanh,adam,mean_squared_error,50,2,93.33,96.67,5.3,4.21
+tanh,adam,mean_squared_error,100,2,95.83,96.67,2.92,2.42
+tanh,sgd,categorical_crossentropy,50,2,88.33,93.33,43.95,39.95
+tanh,sgd,categorical_crossentropy,100,2,95.0,96.67,16.04,14.62
+tanh,sgd,mean_squared_error,50,2,79.17,80.0,11.38,10.91
+tanh,sgd,mean_squared_error,100,2,80.83,86.67,12.57,11.29

@@ -5,13 +5,178 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a517081-4fa5-4a57-8d60-8196c0d66e19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/neural-network-optimize-hyperparameters.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_categorical_crossentropy_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_adam_mean_squared_error_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_categorical_crossentropy_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relu_sgd_mean_squared_error_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_categorical_crossentropy_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_adam_mean_squared_error_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_categorical_crossentropy_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sigmoid_sgd_mean_squared_error_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_categorical_crossentropy_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_adam_mean_squared_error_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_categorical_crossentropy_50_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_100_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_100_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_100_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_100_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_100_layers_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_200_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_200_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_50_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_50_layers_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_50_layers_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_50_layers_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_50_layers_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tanh_sgd_mean_squared_error_50_layers_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/simple.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,17 +186,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2isnmOoNdIFksC3qn1Q7ps8d7iU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
@@ -44,4 +212,7 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
 </project>
